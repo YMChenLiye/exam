@@ -4,6 +4,7 @@
 	</head>
 
 	<body>
+	<?php echo form_open('score/count/'.$paperID.''); ?>
 	<?php foreach($result as $item): ?>
 		<?php questionDetail($item); ?>
 		<br />
